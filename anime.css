@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "agency fb";
+   
+    
+}
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    display: flex;
+    /* width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    background-image: url(https://i.pinimg.com/originals/fb/62/0a/fb620a8601805291e37c4c9fb75e1434.gif);
+    background-size: cover; */
+
+}
+
+#main, #logo a{
+    color: rgb(38, 0, 141);
+    font-size: 3.7vh;
+    font-family: "anurati";
+    text-decoration: none;
+    letter-spacing: 3px;
+
+}
+nav{
+    position: relative;
+   min-width: 100%;
+   height: 25px;
+   padding: 5px;
+   background-color: rgba(16, 36, 87, 0.46);
+    
+}
+
+ nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "montserrat";
+    font-weight: 600;
+    padding-right: 7px;
+    margin-right: 5px;
+    float: right;
+
+
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+figcaption a{
+border: 1px solid red;
+background-color: black;
+border-radius: 7px;
+text-decoration: none;
+color: rgb(246, 242, 242);
+font-size: 20px
+}
+
+a:hover{
+    background-color: red;
+    
+}
+
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figcaption {
+    margin-top: 10px;
+  
+}
+
+img, a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-family: "montserrat";
+
+}
+
+img, a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figure {
+        width: 90%;
+    }
+}

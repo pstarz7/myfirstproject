@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(79, 182, 185);
+}
+
+nav a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 3.5dvh;
+}
+
+#main{
+  
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+
+}
+#gallery{
+    position: relative;
+    margin: 20px;
+
+}
+
+#gallery a{
+    text-decoration: none;
+    
+
+}
+
+#gallery, .wallon{
+    margin-top: 10px;
+    width: 300px;
+    height: 400px ;
+    /* background-color: aquamarine; */
+    background-image: url(https://i.pinimg.com/564x/b8/4d/10/b84d10c7b3d644834531194ab56b5ba8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#galler, .walltw{
+    margin-top: 10px;
+    width: 300px;
+    height: 400px ;
+    /* background-color: aquamarine; */
+    background-image: url(https://i.pinimg.com/236x/f6/8c/d4/f68cd4ea4ed70836a316c6fb0d0bde96.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#galler, .wallth{
+    margin-top: 10px;
+    width: 300px;
+    height: 400px ;
+    /* background-color: aquamarine; */
+    background-image: url(https://i.pinimg.com/736x/8c/24/7f/8c247fbf0059d5877645138543a0cc71.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#galler, .wallfr{
+    margin-top: 10px;
+    width: 300px;
+    height: 400px ;
+    /* background-color: aquamarine; */
+    background-image: url(./mkup/mkp5.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+ h3{
+text-align: center;
+background-color: black;
+color: white;
+
+}
+
+h3:hover{
+    background-color: red;
+}
+
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+
+
+
+
+
